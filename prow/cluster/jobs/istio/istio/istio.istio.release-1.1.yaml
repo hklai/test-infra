@@ -281,7 +281,7 @@ postsubmits:
         - <<: *istio_container
           command:
           - entrypoint
-          - prow/e2e-simpleTests-minProfile.sh
+          - prow/e2e-simpleTests-minprofile.sh
         nodeSelector:
           testing: test-pool        
     - name: e2e-simpleTests-mcp
